@@ -1,0 +1,115 @@
+html {
+    background: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    background: linear-gradient(to right, #3d1d5c, #8b1e3f, #f4c95d);
+    padding: 20px;
+    margin: 8% auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.profile, .tweet-box {
+    width: 40%;
+    background: linear-gradient(to right, #3d1d5c, #8b1e3f, #f4c95d);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, p {
+    color: white;
+}
+
+input, textarea {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #b82e67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#postBtn {
+    margin-left: 78%;
+}
+
+#createBtn {
+    width: 100%;
+}
+
+.feed {
+    max-height: 200px;
+    overflow-y: auto;
+    width: 350px;
+}
+
+.tweet {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#displayPic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.profile-info h2,
+.profile-info p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+table {
+    color: wheat;
+}
+
+#profilePic {
+    background-color: rgb(255, 255, 255);
+}
